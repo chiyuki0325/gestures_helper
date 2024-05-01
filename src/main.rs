@@ -125,8 +125,8 @@ impl GesturesHelper {
             Gesture::ThreeSwipeUp | Gesture::ThreeSwipeDown => {
                 let kwin_global_accel = KWinGlobalAccelProxy::new(&conn).await.unwrap();
                 kwin_global_accel.invoke_shortcut(match &gesture {
-                    Gesture::ThreeSwipeUp => "Cycle Overview",
-                    Gesture::ThreeSwipeDown => "Cycle Overview Opposite",
+                    Gesture::ThreeSwipeUp => "Cycle Overview Opposite",
+                    Gesture::ThreeSwipeDown => "Cycle Overview",
                     _ => "",
                 }).await.unwrap();
             },
