@@ -1,0 +1,10 @@
+[package]
+name = "gestures_helper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+zbus = "4.2.0"
+zbus_names = "3.0.0"
+async-std = {version = "1.12.0", features = ["attributes"]}
+int-enum = "1.1.1"

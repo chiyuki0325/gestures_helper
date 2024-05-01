@@ -1,0 +1,24 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "me@chyk.ink",
+                "Name": "Kirikaze Chiyuki"
+            }
+        ],
+        "Description": "Helper script for my touchpad gestures.",
+        "Icon": "preferences-system-windows-script-test",
+        "Id": "gestures-helper",
+        "License": "GPLv3",
+        "Name": "Gestures Helper",
+        "ServiceTypes": [
+            "KWin/Script"
+        ],
+        "Version": "1.0.0",
+        "Website": "https://github.com/chiyuki0325"
+    },
+    "X-Plasma-API": "javascript",
+    "X-KDE-ConfigModule": "kcm_kwin4_genericscripted",
+    "X-Plasma-MainScript": "code/main.js"
+}

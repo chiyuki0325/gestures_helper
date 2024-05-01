@@ -1,0 +1,10 @@
+[Unit]
+Description=Chiyuki Gestures Helper
+After=network.target
+
+[Install]
+WantedBy=default.target
+
+[Service]
+Type=simple
+ExecStart=/home/chiyuki/.local/bin/chiyuki-gestures-helper
